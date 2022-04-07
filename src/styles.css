@@ -59,5 +59,6 @@ header > h1 {
     display: none;
 }
 .ilus-pilt:hover .pärast {
+    margin: auto;
     display: contents;
 }
