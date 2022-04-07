@@ -30,8 +30,34 @@ header > h1 {
     color: purple;
 }
 
-div {
-    display: grid;
+.pildikonteiner {
+    display: flex;
     margin: auto;
     align-items: center;
+}
+.ilus-pilt {
+    display: flex;
+    justify-content: center;
+    width: 720px;
+    height: 400px;
+    font-size: 3em;
+    color: white;
+    background: #000;
+}
+.ilus-pilt .pärast {
+    display: none;
+}
+
+.ilus-pilt:hover {
+    display: flex;
+    justify-content: center;
+    background: none;
+    background-image: url(https://picsum.photos/720/400);
+    color: black;
+}
+.ilus-pilt:hover .enne {
+    display: none;
+}
+.ilus-pilt:hover .pärast {
+    display: contents;
 }
